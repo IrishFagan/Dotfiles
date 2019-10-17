@@ -1,0 +1,6 @@
+alias subl="/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
+alias d="date"
+alias gs="git status"
+alias gc="git commit"
+alias gcm="git commit -m"
+alias ga="git add"

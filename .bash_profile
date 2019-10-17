@@ -1,1 +1,3 @@
-alias subl="/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
+date
+
+source ~/.bashrc
