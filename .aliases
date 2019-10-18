@@ -1,12 +1,25 @@
 alias subl="/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
 alias d="date"
+
 alias gs="git status"
 alias gc="git commit"
 alias gcm="git commit -m"
 alias ga="git add"
 alias gchange="git commit --amend"
 alias gp="git push -u"
+
 alias lsa="ls -a"
-alias om="origin master"
 alias heim="cd ~"
-alias cl="clear"
+alias cl="clear
+echo Welcome Iro
+date"
+alias cx="clear
+echo Welcome Iro
+date"
+alias school="cd ~/Documents/OSU\ Cascades/3rd\ Year/Fall\ \'19"
+alias dfup="cp .aliases .bash_profile .bashrc ~/dotfiles
+cd ~/dotfiles
+printf 'You should probably update the branch'
+clear
+echo ''
+"
