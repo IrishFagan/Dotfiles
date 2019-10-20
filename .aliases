@@ -26,3 +26,5 @@ printf 'You should probably update the branch'
 echo ''
 "
 alias s="source"
+alias hack_fbi.pfd="printf 'HacKInG FbI!!11!!1!
+'"
