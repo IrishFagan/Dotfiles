@@ -11,7 +11,7 @@ alias gp="git push -u"
 
 #directory
 alias lsa="ls -a"
-alias heim="cd ~"
+alias hm="cd ~"
 alias cl="clear
 echo Welcome Iro
 date"
