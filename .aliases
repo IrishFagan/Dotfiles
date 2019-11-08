@@ -8,23 +8,28 @@ alias gcm="git commit -m"
 alias ga="git add"
 alias gchange="git commit --amend"
 alias gp="git push -u"
+alias gdc="git diff --cached"
 
 #directory
 alias lsa="ls -a"
 alias hm="cd ~"
+alias s="source"
+
 alias cl="clear
-echo Welcome Iro
+echo ...
+echo Welcome, Iro
 date"
 alias cx="clear
-echo Welcome Iro
+echo ...
+echo Welcome, Iro
 date"
-alias go="cd ~/Go"
+
+#alias go="cd ~/Go"
 alias school="cd ~/Documents/OSU\ Cascades/3rd\ Year/Fall\ \'19"
 alias dfup="cp .aliases .bash_profile .bashrc ~/dotfiles
 cd ~/dotfiles
 printf 'You should probably update the branch'
 echo ''
 "
-alias s="source"
-alias hack_fbi.pfd="printf 'HacKInG FbI!!11!!1!
-'"
+alias goi="go install"
+alias gob="go build"
