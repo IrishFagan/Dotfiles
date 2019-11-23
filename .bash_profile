@@ -1,5 +1,5 @@
 #.bash_profile
-echo Welcome Iro
+echo Welcome, Iro
 date
 
 source ~/.bashrc
