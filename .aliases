@@ -1,4 +1,4 @@
-alias subl="/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
+alias subl="subl.exe"
 alias d="date"
 
 #git
@@ -32,7 +32,7 @@ cd ~/dotfiles
 printf 'You should probably update the branch'
 echo ''
 "
-alias heroku="~/../../Program\ Files/heroku/bin/./heroku"
+alias heroku="./heroku"
 
 #go
 alias gogo="cd ~/Go"
