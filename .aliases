@@ -11,19 +11,27 @@ alias gp="git push -u"
 alias gdc="git diff --cached"
 alias gpom="git push -u origin master"
 
-#directory
+#current directory
 alias lsa="ls -a"
 alias hm="cd ~"
 alias s="source"
+alias t="touch"
 
 alias cl="clear
 echo ...
 echo Welcome, Iro
 date"
 alias cx="clear
-echo ...
+echo ...bash
 echo Welcome, Iro
 date"
+
+alias b="cd .."
+alias bb="cd ../.."
+alias bbb="cd ../../.."
+alias bbbb="cd ../../../.."
+alias bbbbb="cd ../../../../.."
+alias bbbbbb="cd ../../../../../.."
 
 #directories
 alias school="cd ~/Documents/OSU\ Cascades/3rd\ Year"
@@ -33,8 +41,21 @@ printf 'You should probably update the branch'
 echo ''
 "
 alias heroku="./heroku"
+alias proper="cd ~/projects/personal"
+alias docs="cd ~/Documents"
+alias forcerm="rm -r"
+
+#node
+alias n="node.exe"
+
+#electron
+alias elec="electron"
 
 #go
 alias gogo="cd ~/Go"
 alias goi="go install"
 alias gob="go build"
+
+#node workshop
+alias jsb="js-best-practices"
+alias ver="verify"
