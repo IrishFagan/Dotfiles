@@ -11,6 +11,7 @@ alias gp="git push -u"
 alias gpp="git pull"
 alias gdc="git diff --cached"
 alias gpom="git push -u origin master"
+alias gphm="git push heroku master"
 
 #current directory
 alias h="history"
@@ -43,7 +44,6 @@ cd ~/dotfiles
 printf 'You should probably update the branch'
 echo ''
 "
-alias heroku="./heroku"
 alias proper="cd ~/projects/personal"
 alias docs="cd ~/Documents"
 alias forcerm="rm -r"
