@@ -74,6 +74,9 @@ alias rs="rspec"
 alias fl="flutter"
 alias flr="flutter run"
 
+#dart
+alias pub="pub.bat"
+
 #android
 alias emu="emulator @Pixel_2_API_29"
 
