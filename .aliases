@@ -54,7 +54,7 @@ alias search="ll | grep"
 alias n="node.exe"
 
 #electron
-alias elec="electron"
+alias e="electron"
 
 #go
 alias gogo="cd ~/Go"
