@@ -1,4 +1,4 @@
-alias subl="subl.exe"
+alias subl="sublime-text.subl"
 alias d="date"
 
 #git
@@ -90,4 +90,5 @@ alias scposu="scp faganmi@access.engr.oregonstate.edu:"
 
 #linux
 alias goget="sudo apt install"
-alias logout="kill -9 -1"
+alias logoff="kill -9 -1"
+alias refresh-display="xrandr --auto"
