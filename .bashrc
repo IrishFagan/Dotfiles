@@ -2,8 +2,11 @@ git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-PS1='\e[1;36m[Iro]\e[m \e[1;31m[$(git_branch)]\e[m \e[1;33m[\w]\e[m
-\e[1;33m[$]\e[m '
+#PS1='\e[1;36m[Iro]\e[m \e[1;31m[$(git_branch)]\e[m \e[1;33m[\w]\e[m
+#\e[1;33m[$]\e[m '
+
+PS1='\342\224\214\342\224\200[\w]
+\342\224\224\342\224\200\342\224\200> '
 
 source ~/.aliases
 
