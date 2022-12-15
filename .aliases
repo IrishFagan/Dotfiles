@@ -1,4 +1,4 @@
-alias subl="subl.exe"
+alias subl="sublime-text.subl"
 alias d="date"
 
 #git
@@ -13,6 +13,7 @@ alias gdc="git diff --cached"
 alias gpom="git push -u origin master"
 alias gphm="git push heroku master"
 alias gb="git branch"
+alias gco="git checkout"
 
 #current directory
 alias h="history"
@@ -51,7 +52,7 @@ alias forcerm="rm -r"
 alias search="ll | grep"
 
 #node
-alias n="node.exe"
+#alias n="node.exe"
 
 #electron
 alias e="electron"
@@ -90,4 +91,5 @@ alias scposu="scp faganmi@access.engr.oregonstate.edu:"
 
 #linux
 alias goget="sudo apt install"
-alias logout="kill -9 -1"
+alias logoff="kill -9 -1"
+alias refresh-display="xrandr --auto"
